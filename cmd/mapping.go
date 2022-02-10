@@ -10,7 +10,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/shinexia/elasticdump/pkg/elasticdump"
+	"github.com/Glass-broken/elasticdump/pkg/elasticdump"
 	"github.com/spf13/cobra"
 	"k8s.io/klog"
 )
