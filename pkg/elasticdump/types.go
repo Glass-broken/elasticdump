@@ -59,7 +59,7 @@ func GenerateTestData(epoch, batch int, callback func(hits []*Hit) (bool, error)
 	for i := 0; i < epoch; i++ {
 		items := make([]*Hit, batch)
 		for j := 0; j < batch; j++ {
-			now := time.Now().UnixMilli()
+			now := time.Now().Unix()
 			data := &TestData{
 				Content:   "content-" + strconv.Itoa(id),
 				Title:     "title-" + strconv.Itoa(id),
