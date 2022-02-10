@@ -1,4 +1,4 @@
-module github.com/shinexia/elasticdump
+module github.com/Glass-broken/elasticdump
 
 go 1.17
 
