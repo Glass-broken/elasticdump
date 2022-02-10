@@ -12,7 +12,7 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
-	"github.com/Glass-broken/elasticdump/pkg/elasticdump"
+	"github.com/shinexia/elasticdump/pkg/elasticdump"
 	flag "github.com/spf13/pflag"
 	"k8s.io/klog"
 )

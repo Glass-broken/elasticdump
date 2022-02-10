@@ -10,7 +10,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/Glass-broken/elasticdump/cmd"
+	"github.com/shinexia/elasticdump/cmd"
 )
 
 func main() {

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Glass-broken/elasticdump/pkg/elasticdump"
+	"github.com/shinexia/elasticdump/pkg/elasticdump"
 	"github.com/spf13/cobra"
 	"k8s.io/klog"
 )

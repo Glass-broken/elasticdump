@@ -8,14 +8,14 @@ The ElasicSearch did not offer a dump tool, and the only tool provided at <https
 
 ## INSTALL
 
-1. `go get https://github.com/Glass-broken/elasticdump`
+1. `go get https://github.com/shinexia/elasticdump`
 
-2. or download a prebuilt binary here: <https://github.com/Glass-broken/elasticdump/releases/>
+2. or download a prebuilt binary here: <https://github.com/shinexia/elasticdump/releases/>
 
 3. or build from source
 
 ``` bash
-git clone https://github.com/Glass-broken/elasticdump.git
+git clone https://github.com/shinexia/elasticdump.git
 cd elasticdump
 make
 ```
@@ -31,7 +31,7 @@ $ ./elasticdump
     │ a simple dump/load data/mapping from elasticsearch       │
     │                                                          │
     │ Please give us feedback at:                              │
-    │ https://github.com/Glass-broken/elasticdump/issues           │
+    │ https://github.com/shinexia/elasticdump/issues           │
     └──────────────────────────────────────────────────────────┘
 
 Example usage:

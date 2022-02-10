@@ -1,4 +1,4 @@
-module github.com/Glass-broken/elasticdump
+module github.com/shinexia/elasticdump
 
 go 1.17
 
@@ -12,3 +12,5 @@ require (
 )
 
 require github.com/inconshreveable/mousetrap v1.0.0 // indirect
+
+replace github.com/shinexia/elasticdump@v0.3.7 => github.com/Glass-broken/elasticdump@v0.3.7
